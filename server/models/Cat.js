@@ -10,7 +10,7 @@ const mongoose = require('mongoose');
 // A mongoDB model is a Mongo database structure with the API attached
 // That is, a model has built-in functions for its data structure like find, findOne, etc.
 // Usually you will retrieve data from the database through the Model object
-let CatModel = {};
+let CatModel;
 
 /* While Mongo is a schema-less database, meaning we can just store arbitrary objects in it,
    Mongoose does implement a schema system. If you wanted to just store arbitrary objects you
